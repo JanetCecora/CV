@@ -1,0 +1,138 @@
+body
+{
+	font-family: verdana, sans-serif;
+	background-color: #A4BED4;
+	display: flex;
+	word-wrap: break-word;
+}
+
+aside
+{
+	min-height: 600px;
+	max-height: 1200px;
+	width: 15%;
+	background-color: #A11E8C;
+	border-radius: 5px;
+	padding: 3% 0 3% 0;
+}
+
+#page
+{
+	width: 100%;
+}
+
+header
+{
+	text-align: center;
+	margin: 3% 8% 3% 0;
+	display: flex;
+}
+
+#title
+{
+	width: 100%;
+}
+
+#image
+{
+	width: 5%;
+}
+
+header h1
+{
+	font-size: 28px;
+}
+
+header p
+{
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+}
+
+h1
+{
+	font-size: 20px;
+}
+
+section
+{
+	display: flex;
+	justify-content: space-around;
+	margin: 3% 0 3% 0;
+}
+
+.profil
+{
+	width: 30%
+}
+
+em
+{	font-weight: bold;}
+
+li
+{
+	line-height: 1.5em;
+	padding-bottom: 1em;
+}
+
+
+footer p, footer h1
+{
+	font-style: italic;
+	text-align: center;
+	color: #000;
+}
+
+/* Media Queries*/
+
+@media screen and (max-width: 1024px)
+{
+
+section
+{
+	flex-direction: column;
+}
+
+aside
+{
+	display: none;
+}
+
+.profil
+{
+	width: 100%
+}
+
+
+h1, li
+{
+	text-align: center;
+}
+
+/*
+li
+{
+	text-decoration-style: none;
+}
+*/
+
+header
+{
+	flex-direction: column;
+	margin: auto;
+	align-items: center;
+}
+
+ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+#image
+{
+	width: 100%
+}
+
+}
